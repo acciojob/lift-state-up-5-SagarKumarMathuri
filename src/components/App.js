@@ -13,7 +13,7 @@ function App() {
       <h1>Lift State Up Demo</h1>
 
       {isLoggedIn ? (
-        <h2>✅ You are logged in!</h2>
+        <h2>You are logged in!</h2>
       ) : (
         <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
