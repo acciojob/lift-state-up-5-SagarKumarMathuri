@@ -14,6 +14,7 @@ function App() {
 
       {isLoggedIn ? (
         <h2> You are logged in!</h2>
+        <h2>You are logged in!</h2>
       ) : (
         <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
